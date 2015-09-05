@@ -1,0 +1,67 @@
+---
+layout: post
+title: Scraping assessment results
+publshed: false
+---
+
+<p>At universities, &#8220;assessments&#8221; happen &#8211; often written examinations or essays or things. Some time after an assessment, the results are communicated somehow &#8211; at mine, they silently appear on a web page. Some students seem to check the page regularly, whereas freeloading layabouts like me just wait to hear the news from them.</p>
+<p>The webpage is part of &#8220;e:Vision&#8221;, which is part of &#8220;SITS:Vision&#8221;. <a href="http://www.tribalgroup.com/technology/sitsvision/Pages/default.aspx">Apparently</a>:</p>
+<blockquote><p>
+SITS:Vision is one of the world’s leading student- and course-management solutions for further (Scotland) and higher education. It is currently used by 60% of the UK HE market and a number of institutions around the world including the University of Sydney.</p>
+<p>Over the years, SITS:Vision has evolved to become the best solution on the market ahead of the competition in terms of meeting statutory reporting requirements and is used by 12 of the 24 UK Russell Group of Universities including the University of Oxford.</p></blockquote>
+<p>Be that as it may, it&#8217;s a shame students can&#8217;t be notified when their assessment results are published. Oh, well, maybe we can solve the problem with technology.</p>
+<h3>CasperJS</h3>
+<p>There are lots of lightweight things for scraping web pages, and plenty that can handle authentication and redirects as required here. But the e:Vision interface is so perverse &#8211; like <a href="http://www.supermarketwine.com/blog/sainsbury-s-finally-has-a-web-site">the Sainsbury&#8217;s website used to</a>, it gives each page a differently long, non&#8211;human-readable address each time &#8211; that a full-blown <em>headless web browser</em> was called for. <a href="http://phantomjs.org/">PhantomJS</a> seemed good.</p>
+<p>Turns out PhantomJS is a bit poorly documented and , and things, so let&#8217;s use CasperJS , which is a further, nicer layer on top of PhantomJS.<sup><a href="#footnote_0_8751" id="identifier_0_8751" class="footnote-link footnote-identifier-link" title="The nomenclature&rsquo;s fixation with Derek Acorah shit &ndash; zombies and ghosts and things &ndash; is a clever play on the &ldquo;headless&rdquo; word.">1</a></sup></p>
+<pre><code>var x = require('casper').selectXPath,
+  casper = require('casper').create({
+    pageSettings: {
+      loadImages: false
+    }
+  }),
+  username = casper.cli.options.username,
+  password = casper.cli.options.password;
+
+casper.start('http://evision.york.ac.uk', function () {
+  if (this.getCurrentUrl() === 'https://shib.york.ac.uk/idp/Authn/UserPassword') {
+    this.fill('form[action="/idp/Authn/UserPassword"]', {
+      'j_username': username,
+      'j_password': password
+    }, true);
+  }
+});
+
+casper.then(function () {t
+  this.clickLabel('Module and Assessment Results');
+});
+
+
+// modules overview
+
+casper.thenClick('[name="butselect"]'); // computer science
+
+casper.then(function () {
+ this.echo(this.evaluate(function () {
+ return document.getElementById('sitspagecontent').getElementsByTagName('table')[3].textContent;
+ }));
+ modulesCount = this.evaluate(function () {
+ return document.getElementsByName('butselect').length;
+ });
+});
+
+// module by module
+
+casper.then(function () {
+ casper.each(_.range(1, modulesCount), function (self, item) {
+ this.thenClick(x('//*[@id="sitspagecontent"]/form/table[4]/tbody/tr[' + (item + 1) + ']/td[6]/input'));
+ this.then(function () {
+ this.echo(casper.evaluate(function () {
+ return document.getElementById('sitspagecontent').getElementsByTagName('table')[5].textContent;
+ }));
+ });
+ casper.back();
+ });
+});
+
+casper.run();</code></pre>
+<div class="hr"><hr /></div><ol class="footnotes"><li id="footnote_0_8751" class="footnote">The nomenclature&#8217;s fixation with Derek Acorah shit &#8211; <a href="http://zombie.labnotes.org/">zombies</a> and ghosts and things &#8211; is a clever play on the &#8220;headless&#8221; word. <a href="#identifier_0_8751" class="footnote-link footnote-back-link">&#8617;</a></li></ol>

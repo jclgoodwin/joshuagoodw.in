@@ -1,0 +1,438 @@
+---
+---
+
+@font-face {
+  font-family: 'FuturaBT-Medium';
+  src: url('webfonts/238A4B_0_0.eot');
+  src: url('webfonts/238A4B_0_0.eot?#iefix') format('embedded-opentype'),
+     url('webfonts/238A4B_0_0.woff') format('woff'),
+     url('webfonts/238A4B_0_0.ttf') format('truetype');
+}
+
+nav, article, header, time {
+  display: block;
+}
+
+.ad {
+  margin: 72px auto;
+  text-align: center;
+}
+
+.ad ul,
+.ad li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline;
+}
+
+.ad ul:before {
+  content: "Advert: ";
+}
+
+/* Base styles */
+
+body,
+.page-template-archivism-php h3 {
+  font-family: Constantia, Palatino, 'Palatino Linotype', 'URW Palladio L', serif;
+}
+
+h1, h3, #masthead {
+  font-family: 'FuturaBT-Medium', Futura, 'Tw Cen MT', sans-serif;
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  overflow-wrap: hyphenate;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  background: #fff;
+  color: #333;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#page {
+  max-width: 600px;
+  margin: 24px auto 72px;
+  padding: 0 15px;
+}
+
+a {
+  color: #cc005f;
+  text-decoration: none;
+  border-bottom: 1px solid #ffcce4;
+  transition: background-color .1s linear;
+  -moz-transition: background-color .1s linear;
+  -webkit-transition: background-color .1s linear;
+}
+
+a:active,
+a:focus {
+  background-color: #ffcce4;
+}
+
+blockquote {
+  margin: 0 0 0 14px;
+  padding: 0 0 0 15px;
+  border-left: 1px solid #ffcce4;
+  text-align: left;
+}
+
+hr {
+  height: 1px;
+  border: 0;
+  background: #ffcce4;
+  width: 150px;
+  margin: 24px auto;
+}
+
+.hr hr {
+  display: none;
+}
+
+.hr {
+  width: 150px;
+  margin: 24px 0;
+  height: 1px;
+  background: #ffcce4;
+}
+
+sup, sub {
+  vertical-align: 0ex;
+  position: relative;
+}
+
+sup {
+  bottom: 1ex;
+}
+
+sub {
+  top: 0.8ex;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 36px;
+  margin: 72px 0 16px 0;
+}
+
+#page h1 a, #page h3 a {
+  border: 0;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 24px 0 16px;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+article iframe {
+  max-width: 100%;
+}
+
+article, #comments, ol.commentlist {
+  margin-bottom: 72px;
+}
+
+#adjacent {
+  overflow: hidden;
+}
+
+#adjacent p {
+  margin: 0;
+  width: 50%;
+  float: left;
+}
+
+#adjacent p.newer {
+  text-align: right;
+}
+
+#adjacent>p.newer:first-child, #adjacent>p.older:last-child {
+  width: 100%;
+}
+
+.alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right;
+  text-align: right;
+}
+
+img.alignright {
+  margin: 0 0 12px 30px;
+}
+
+.wp-caption.alignright {
+  margin-left: 20px;
+}
+
+img.alignleft {
+  margin: 0 30px 12px 0;
+}
+
+.wp-caption.alignleft {
+  margin-right: 20px;
+}
+
+img.aligncenter {
+  margin: 0 auto;
+  display: block;
+}
+
+.wp-caption {
+  max-width: 100%;
+}
+
+.caption, .wp-caption-text {
+  margin-top: 0;
+  color: #ff55a4;
+  text-align: center;
+  font-style: italic;
+}
+
+#page a.image {
+  border: 0;
+}
+
+code {
+  font-family: Consolas, Monaco, monospace;
+  font-size: .8em;
+}
+
+strong, .caps {
+  text-transform: uppercase;
+  font-size: .8em;
+  font-weight: inherit;
+  letter-spacing: 1px;
+}
+/* Masthead nav thing */
+#masthead ul, #masthead li {
+  margin: 0;
+  padding: 0;
+}
+
+#masthead {
+  margin-bottom: -12px;
+  font-size: 16px;
+}
+
+#masthead li {
+  display: inline;
+  margin-right: 30px;
+}
+
+#masthead li a {
+  color: #ff55a4;
+  border: 0;
+  display: inline-block;
+}
+
+#masthead li a:hover,
+#masthead li.current a {
+  color: #cc005f;
+}
+
+/* Archivism page template */
+.page-template-archivism-php h3 {
+  font-size: 16px;
+  margin: 16px 0 0 30px;
+  color: #ff55a4;
+  font-weight: normal;
+}
+
+.archives {
+  padding: 0;
+  margin: 0 0 0 30px;
+}
+
+.archives li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  clear: both;
+}
+
+.archives .published {
+  float: left;
+  margin-left: -30px;
+  display: block;
+  width: 30px;
+  color: #ff55a4;
+}
+/* Comments */
+.commentlist, .commentlist li {
+  margin: 24px 0;
+  padding: 0;
+  list-style: none;
+}
+
+#comments h3 {
+  margin-bottom: 24px;
+}
+
+.commentlist p {
+  clear: both;
+}
+
+.fn {
+  font-style: normal;
+}
+
+.when {
+  float: right;
+}
+
+.who {
+  float: left;
+}
+
+p.who, p.when {
+  margin: 0 0 16px 0;
+  clear: none;
+}
+
+.ad,
+.ad a,
+.who, .who a, 
+.when a, 
+#adjacent a, 
+.meta, .meta a {
+  color: #ff55a4;
+}
+
+p.message {
+  padding: 4px 8px 3px;
+  border: 1px solid #ffcce4;
+}
+
+/* Forms and shit */
+a.action {
+  padding: 3px 8px 2px;
+  border-bottom-color: #cc005f;
+  background: #ff55a4;
+  color: #fff;
+  text-shadow: 0 -1px #cc005f;
+  display: inline-block;
+}
+
+a.action:focus, a.action:active {
+  background: #cc005f;
+}
+
+input[type=text], input[type=email], input[type=url], input[type=search], textarea {
+  border: 1px solid #ffcce4;
+  display: inline-block;
+  margin: 0;
+  padding: 2px;
+  font: inherit;
+  color: inherit;
+}
+
+.details p {
+  width: 33.3%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  overflow: hidden;
+  display: inline-block;
+  margin: 0;
+  padding: 0 15px;
+}
+
+.details {
+  margin: 0 -15px;
+}
+
+.details label {
+  display: block;
+}
+
+.details input, textarea {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+textarea {
+  overflow: auto;
+}
+
+h3 small {
+  font-size: 14px;
+  color: #fff;
+  background: #ff55a4;
+  padding: 2px 4px;
+  border-radius: 2px;
+  vertical-align: top;
+}
+/* Media queries */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  body {
+    -webkit-text-size-adjust: none;
+  }
+}
+
+@media only screen and (max-width : 670px) {
+  blockquote {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width : 480px) {
+  #masthead ul>li:first-child {
+    display: block;
+  }
+
+  #masthead a {
+    padding: 3px 0;
+  }
+
+  #masthead li {
+    margin-right: 20px;
+  }
+
+  article iframe {
+    height: auto;
+  }
+
+  h2, h3 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .page-template-archivism-php h3 {
+    line-height: 24px;
+  }
+
+  h1 a {
+    display: block;
+  }
+
+  .details p {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .details {
+    margin-bottom: -1em;
+  }
+
+  img.alignright {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    display: block;
+  }
+}

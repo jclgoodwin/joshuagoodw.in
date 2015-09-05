@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+{% for post in paginator.posts %}
+<article>
+<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+<p class="meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%A %-d %B %Y" }}</time></p>
+{{ post.content }}
+</article>
+{% endfor %}
+
+<div id="adjacent">
+  {% if paginator.next_page %}
+    <p class="older"><a href="{{ paginator.next_page_path }}">&#8592; Older</a>
+  {% endif %}
+  {% if paginator.previous_page %}
+    <p class="newer"><a href="{{ paginator.previous_page_path }}">Newer &#8594;</a>
+  {% endif %}
+</div>

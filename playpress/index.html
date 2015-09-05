@@ -1,0 +1,56 @@
+---
+layout: page
+title: PlayPress
+---
+
+<p class="message">WordPress (version 3.6+) <a href="https://codex.wordpress.org/Audio_Shortcode">now has a built-in audio player</a>, which conveniently accepts the same shortcode syntax as PlayPress, and is rather quite good, so you should probably use that instead. Just disable the PlayPress plugin and the WordPress player will work everywhere the PlayPress one did.</p>
+<p>PlayPress is a JavaScript-free, low-Flash audio player plugin for WordPress, fortified with HTML5. &#8220;Free as in beer, speech and fat.&#8221;</p>
+<p><a class="action" href="http://wordpress.org/extend/plugins/playpress/">Get PlayPress from the WordPress plugin repository</a></p>
+<h3>Lightweight</h3>
+<p>Some WordPress audio plugins inject JavaScript into every page of your website, even pages that don’t have any audio on them. PlayPress doesn&#8217;t need any JavaScript to work.</p>
+<h3>HTML5</h3>
+<p>Other plugins rely on Adobe&#8217;s proprietary Flash technology. So does PlayPress, but with the important distinction that it can fall back or to or from standard HTML5 audio, so it works on the iPhone and iPad.</p>
+<h3>How to use</h3>
+<p>Just put this where you want the audio player to be:</p>
+<p><code>&#91;audio mp3="<var>http://example.com/bells.mp3</var>"&#93;</code></p>
+<p>For optimal results, you may specify an additional copy of your audio file in Ogg Vorbis format:</p>
+<p><code>&#91;audio mp3="<var>http://example.com/bells.mp3</var>" ogg="<var>http://example.com/bells.ogg</var>"&#93;</code></p>
+<p>(Obviously, you must replace <code>http://example.com/bells.mp3</code> with the URL of whatever audio you want to embed.)</p>
+<p><strong>New in version 1.2!</strong> Optionally, specify a title and/or artist:</p>
+<p><code>&#91;audio mp3="<var>http://example.com/bells.mp3</var>" title="<var>Imagine</var>" artist="<var>John Lennon</var>"&#93;</code></p>
+<h3>Output</h3>
+<p>Here&#8217;s an example using a single MP3 file:</p>
+<p><object id="audioplayer1" type="application/x-shockwave-flash" data="https://joshuagoodw.in/wp/wp-content/plugins/playpress/player.swf" width="290" height="24">
+<param name="movie" value="https://joshuagoodw.in/wp/wp-content/plugins/playpress/player.swf" />
+<param name="FlashVars" value="soundFile=https://joshuagoodw.in/media/ambush.mp3&amp;playerID=1&amp;noinfo=yes&amp;titles=&amp;artists=" />
+<param name="quality" value="high" />
+<param name="menu" value="false" />
+<param name="wmode" value="opaque" /><audio controls preload="metadata" src="https://joshuagoodw.in/media/ambush.mp3"><a href="https://joshuagoodw.in/media/ambush.mp3">Download audio file (ambush.mp3)</a></audio></object></p>
+<ol>
+<li>If you have Flash installed, you’ll see a Flash audio player.</li>
+<li>If not, you’ll see an HTML5 audio player – but it won’t work in Firefox or Opera.</li>
+<li>If not, you’ll see a link to download the audio file.</li>
+</ol>
+<p>Here, I’ve included both Ogg Vorbis and MP3 files:</p>
+<p><audio controls preload="metadata"><source src="https://joshuagoodw.in/media/ambush.mp3" type="audio/mp3"><source src="https://joshuagoodw.in/media/ambush.ogg" type="audio/ogg" /><object id="audioplayer2" type="application/x-shockwave-flash" data="https://joshuagoodw.in/wp/wp-content/plugins/playpress/player.swf" width="290" height="24">
+<param name="movie" value="https://joshuagoodw.in/wp/wp-content/plugins/playpress/player.swf" />
+<param name="FlashVars" value="soundFile=https://joshuagoodw.in/media/ambush.mp3&amp;playerID=2" />
+<param name="quality" value="high" />
+<param name="menu" value="false" />
+<param name="wmode" value="opaque" /><a href="https://joshuagoodw.in/media/ambush.mp3">Download audio file (ambush.mp3)</a></object></audio></p>
+<ol>
+<li>If your browser supports HTML5 audio, you’ll see its native audio player.</li>
+<li>If not, but Adobe Flash Player is installed, you’ll see a Flash audio player.</li>
+<li>If not, you’ll see a link to download the audio file.</li>
+</ol>
+<p>RSS feed subscribers will get a link to download the audio file, and WordPress&#8217;s inbuilt mechanisms should take the necessary steps to add &#8220;enclosures&#8221; to the feed in the manner of a podcast.</p>
+<p><a class="action" href="http://wordpress.org/extend/plugins/playpress/">Get PlayPress from the WordPress plugin repository</a></p>
+<h3>Troubleshooting</h3>
+<ul>
+<li>Users of the <a href="http://jetpack.me/">Jetpack</a> plugin may experience problems if the &#8220;Shortcode Embeds&#8221; module is enabled. The module can be disabled by going to <code>/wp-admin/admin.php?page=jetpack</code>, finding the box entitled &#8220;Shortcode Embeds&#8221;, and clicking &#8220;Learn More&#8221; and then &#8220;Deactivate&#8221;.</li>
+<li><p>Some old versions of Opera and Firefox request gzipped (compressed) versions of Ogg Vorbis files. If your web server serves these files gzipped, they will not play properly.</p>
+<p>A file called <code>htaccess.txt</code> is included in the PlayPress package. If your web server supports this (i.e. it&#8217;s Apache with mod_rewrite) (if you&#8217;re not sure, it&#8217;s worth a try), copy this file to wherever you’re hosting your audio files (probably <code>/wp-content/uploads/</code>), and rename it to <code>.htaccess</code>.</p></li>
+</ul>
+<h3>Credits</h3>
+<p>Thanks to Martin Laine for creating <a href="http://wpaudioplayer.com/">WordPress Audio Player</a>, which is the <code>player.swf</code> used in this plugin.</p>
+<p>Sean Ooi&#8217;s <a href="http://seanooi.net/audio-for-everybody/">Audio For Everybody</a>, itself inspired by Kroc Camen&#8217;s <a href="http://camendesign.com/code/video_for_everybody">Video for Everybody</a>, was an inspiration. His suggested markup includes references to Windows Media Player and QuickTime &#8211; I&#8217;ve chosen to avoid that can of worms for now.</p>

@@ -1,0 +1,35 @@
+---
+layout: post
+title: 
+publshed: false
+---
+
+<ol>
+<li>Set the hostname, possibly</li>
+<li>Configure the timezone and language and things</li>
+<li>Perform software updates</li>
+<li>Add a new user:
+<ol>
+<li><code>adduser <var>username</var></code> and follow the prompts. (<code>adduser</code> is a friendly wrapper, not to be confused with <code>useradd</code>, which it wraps around.)</li>
+<li><code>usermod -a -G sudo <var>username</var></code></li>
+<li><code>logout</code></li>
+<li><code>ssh <var>username</var>@<var>example.com</var></code></li>
+<li>Verify that <code>sudo</code> works</li>
+</ol>
+</li>
+<li>SSH keys:
+<ol>
+<li>Copy public key to <code>~/.ssh/authorized_keys</code></li>
+<li>Make sure the permissions are correct (<code>chmod 700 ~/.ssh/; chmod 600 ~/.ssh/authorized_keys</code>)</li>
+<li>Log out and log in again, without typing your password, to verify that it works</li>
+</ol>
+</li>
+<li>Disable logging in as <code>root</code>, and (unless you really need it) password authentication:
+<ol>
+<li>Edit /<code>etc/ssh/sshd_config</code></li>
+<li>Restart the service called <code>ssh</code> or <code>sshd</code></li>
+</ol>
+</li>
+<li>Set up a firewall?</li>
+<li>Set up Fail2ban?</li>
+</ol>
