@@ -5,7 +5,7 @@ title: Peter Mandelson’s yoghurt
 
 From [<cite>Mandelson: The Real PM?</cite> (2010)][bbc]:
 
-<video width="624" height="352" preload="metadata" controls="controls">
+<video width="624" height="352" preload="metadata" controls="controls" poster="/media/mandelson-yoghurt.jpg">
     <source type="video/mp4" src="/media/mandelson-yoghurt.mp4" />
 </video>
 
