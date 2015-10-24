@@ -1,12 +1,9 @@
----
----
-
 @font-face {
   font-family: 'FuturaBT-Medium';
-  src: url('webfonts/238A4B_0_0.eot');
-  src: url('webfonts/238A4B_0_0.eot?#iefix') format('embedded-opentype'),
-     url('webfonts/238A4B_0_0.woff') format('woff'),
-     url('webfonts/238A4B_0_0.ttf') format('truetype');
+  src: url('/webfonts/238A4B_0_0.eot');
+  src: url('/webfonts/238A4B_0_0.eot?#iefix') format('embedded-opentype'),
+     url('/webfonts/238A4B_0_0.woff') format('woff'),
+     url('/webfonts/238A4B_0_0.ttf') format('truetype');
 }
 
 nav, article, header, time {
@@ -317,6 +314,7 @@ p.message {
 }
 
 /* Forms and shit */
+/*
 a.action {
   padding: 3px 8px 2px;
   border-bottom-color: #cc005f;
@@ -368,7 +366,7 @@ input[type=text], input[type=email], input[type=url], input[type=search], textar
 textarea {
   overflow: auto;
 }
-
+*/
 h3 small {
   font-size: 14px;
   color: #fff;
