@@ -1,18 +1,8 @@
-# Site settings
 title: Joshua Goodwin
 description: His blog
-email: j@joshuagoodw.in
-url: "https://joshuagoodw.in" # the base hostname & protocol for your site
-
+url: "https://joshuagoodw.in"
 permalink: /:year/:month/:title
-paginate: 5
-paginate_path: "/page/:num"
-
-gems:
-  [jekyll-paginate]
-
 sass:
   style: :compressed
-
 compress_html:
   clippings: all
