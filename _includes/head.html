@@ -1,7 +1,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{% if paginator.page > 1 %}Page {{ paginator.page }} &#8211; {% endif %}{{ site.title }}</title>
+<title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
 <style>
 {% capture include_to_scssify %}
     {% include muesli.scss %}
@@ -9,6 +9,7 @@
 {{ include_to_scssify | scssify }}
 </style>
 <link rel="alternate" type="application/rss+xml" href="/feed" />
+<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 <!--[if lt IE 9]>
 <script src="/ie.js"></script>
 <![endif]-->
