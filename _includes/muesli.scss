@@ -1,59 +1,25 @@
-@font-face {
-  font-family: 'FuturaBT-Medium';
-  src: url('/webfonts/238A4B_0_0.eot');
-  src: url('/webfonts/238A4B_0_0.eot?#iefix') format('embedded-opentype'),
-     url('/webfonts/238A4B_0_0.woff') format('woff'),
-     url('/webfonts/238A4B_0_0.ttf') format('truetype');
-}
+@import 'utils';
+@include font-face('Futura', '/webfonts/futura');
 
 nav, article, header, time {
   display: block;
 }
 
-.ad {
-  margin: 72px auto;
-  text-align: center;
-}
-
-.ad ul,
-.ad li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: inline;
-}
-
-.ad ul:before {
-  content: "Advert: ";
-}
-
-/* Base styles */
-
-body,
-.page-template-archivism-php h3 {
-  font-family: Constantia, Palatino, 'Palatino Linotype', 'URW Palladio L', serif;
-}
-
-h1, h3, #masthead {
-  font-family: 'FuturaBT-Medium', Futura, 'Tw Cen MT', sans-serif;
-  font-weight: normal;
-}
-
 body {
-  margin: 0;
-  overflow-wrap: hyphenate;
-  word-wrap: break-word;
-  overflow-y: scroll;
   background: #fff;
   color: #333;
-  font-size: 16px;
-  line-height: 24px;
+  font: 16px/24px Constantia, Palatino, 'Palatino Linotype', 'URW Palladio L', serif;
+  margin: 24px auto 72px;
+  max-width: 600px;
+  overflow-wrap: hyphenate;
+  overflow-y: scroll;
+  padding: 0 15px;
+  word-wrap: break-word;
 }
 
-#page {
-  max-width: 600px;
-  margin: 24px auto 72px;
-  padding: 0 15px;
+h1, h3, header {
+  font-family: Futura, 'Tw Cen MT', sans-serif;
+  font-weight: normal;
 }
 
 a {
@@ -61,8 +27,6 @@ a {
   text-decoration: none;
   border-bottom: 1px solid #ffcce4;
   transition: background-color .1s linear;
-  -moz-transition: background-color .1s linear;
-  -webkit-transition: background-color .1s linear;
 }
 
 a:active,
@@ -113,10 +77,10 @@ h1 {
   font-size: 30px;
   line-height: 36px;
   margin: 72px 0 16px 0;
-}
 
-#page h1 a, #page h3 a {
-  border: 0;
+  a {
+    border: 0;
+  }
 }
 
 h3 {
@@ -135,26 +99,44 @@ article iframe {
   max-width: 100%;
 }
 
-article, #comments, ol.commentlist {
+article {
   margin-bottom: 72px;
 }
 
-#adjacent {
+.ad {
+  margin: 72px auto;
+  text-align: center;
+
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline;
+  }
+
+  ul:before {
+    content: "Advert: ";
+  }
+}
+
+.adjacent {
   overflow: hidden;
-}
 
-#adjacent p {
-  margin: 0;
-  width: 50%;
-  float: left;
-}
+  p {
+    margin: 0;
+    width: 50%;
+    float: left;
+  }
 
-#adjacent p.newer {
-  text-align: right;
-}
+  .newer {
+    text-align: right;
+  }
 
-#adjacent>p.newer:first-child, #adjacent>p.older:last-child {
-  width: 100%;
+  .newer:first-child,
+  .older:last-child {
+    width: 100%;
+  }
 }
 
 .alignleft {
@@ -163,7 +145,7 @@ article, #comments, ol.commentlist {
 
 .alignright {
   float: right;
-  text-align: right;
+  // text-align: right;
 }
 
 img.alignright {
@@ -191,14 +173,15 @@ img.aligncenter {
   max-width: 100%;
 }
 
-.caption, .wp-caption-text {
+.caption,
+.wp-caption-text {
   margin-top: 0;
   color: #ff55a4;
   text-align: center;
   font-style: italic;
 }
 
-#page a.image {
+a.image {
   border: 0;
 }
 
@@ -207,67 +190,76 @@ code {
   font-size: .8em;
 }
 
-strong, .caps {
+strong,
+.caps {
   text-transform: uppercase;
   font-size: .8em;
   font-weight: inherit;
   letter-spacing: 1px;
 }
-/* Masthead nav thing */
-#masthead ul, #masthead li {
-  margin: 0;
-  padding: 0;
-}
 
-#masthead {
+header nav {
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+  }
+
   margin-bottom: -12px;
   font-size: 16px;
+
+  li {
+    display: inline;
+    margin-right: 30px;
+
+    a {
+      color: #ff55a4;
+      border: 0;
+      display: inline-block;
+    }
+
+    // &.current a,
+    a:hover {
+      color: #cc005f;
+    }
+  }
 }
 
-#masthead li {
-  display: inline;
-  margin-right: 30px;
+.archive {
+  h2 {
+    font-size: 16px;
+    margin: 16px 0 0 30px;
+    color: #ff55a4;
+    font-weight: normal;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0 0 0 30px;
+  }
+
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    clear: both;
+  }
+
+  time {
+    color: #ff55a4;
+    display: block;
+    float: left;
+    margin-left: -30px;
+    width: 30px;
+  }
 }
 
-#masthead li a {
-  color: #ff55a4;
-  border: 0;
-  display: inline-block;
+.fn {
+  font-style: normal;
 }
 
-#masthead li a:hover,
-#masthead li.current a {
-  color: #cc005f;
-}
-
-/* Archivism page template */
-.page-template-archivism-php h3 {
-  font-size: 16px;
-  margin: 16px 0 0 30px;
-  color: #ff55a4;
-  font-weight: normal;
-}
-
-.archives {
-  padding: 0;
-  margin: 0 0 0 30px;
-}
-
-.archives li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  clear: both;
-}
-
-.archives .published {
-  float: left;
-  margin-left: -30px;
-  display: block;
-  width: 30px;
-  color: #ff55a4;
-}
-/* Comments */
+/*
+// Comments
 .commentlist, .commentlist li {
   margin: 24px 0;
   padding: 0;
@@ -282,10 +274,6 @@ strong, .caps {
   clear: both;
 }
 
-.fn {
-  font-style: normal;
-}
-
 .when {
   float: right;
 }
@@ -298,12 +286,13 @@ p.who, p.when {
   margin: 0 0 16px 0;
   clear: none;
 }
+*/
 
 .ad,
 .ad a,
-.who, .who a, 
-.when a, 
-#adjacent a, 
+// .who, .who a,
+// .when a,
+.adjacent a, 
 .meta, .meta a {
   color: #ff55a4;
 }
@@ -313,8 +302,6 @@ p.message {
   border: 1px solid #ffcce4;
 }
 
-/* Forms and shit */
-/*
 a.action {
   padding: 3px 8px 2px;
   border-bottom-color: #cc005f;
@@ -322,51 +309,14 @@ a.action {
   color: #fff;
   text-shadow: 0 -1px #cc005f;
   display: inline-block;
+
+  &:focus,
+  &:active {
+    background: #cc005f;
+  }
 }
 
-a.action:focus, a.action:active {
-  background: #cc005f;
-}
-
-input[type=text], input[type=email], input[type=url], input[type=search], textarea {
-  border: 1px solid #ffcce4;
-  display: inline-block;
-  margin: 0;
-  padding: 2px;
-  font: inherit;
-  color: inherit;
-}
-
-.details p {
-  width: 33.3%;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  overflow: hidden;
-  display: inline-block;
-  margin: 0;
-  padding: 0 15px;
-}
-
-.details {
-  margin: 0 -15px;
-}
-
-.details label {
-  display: block;
-}
-
-.details input, textarea {
-  width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-textarea {
-  overflow: auto;
-}
-*/
+/*
 h3 small {
   font-size: 14px;
   color: #fff;
@@ -375,12 +325,7 @@ h3 small {
   border-radius: 2px;
   vertical-align: top;
 }
-/* Media queries */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  body {
-    -webkit-text-size-adjust: none;
-  }
-}
+*/
 
 @media only screen and (max-width : 670px) {
   blockquote {
@@ -389,16 +334,18 @@ h3 small {
 }
 
 @media only screen and (max-width : 480px) {
-  #masthead ul>li:first-child {
+  header ul li:first-child {
     display: block;
   }
 
-  #masthead a {
-    padding: 3px 0;
-  }
+  header nav {
+    a {
+      padding: 3px 0;
+    }
 
-  #masthead li {
-    margin-right: 20px;
+    li {
+      margin-right: 20px;
+    }
   }
 
   article iframe {
@@ -410,22 +357,16 @@ h3 small {
     line-height: 18px;
   }
 
-  .page-template-archivism-php h3 {
-    line-height: 24px;
-  }
-
   h1 a {
     display: block;
   }
 
+  /*
   .details p {
     width: 100%;
     margin-bottom: 1em;
   }
-
-  .details {
-    margin-bottom: -1em;
-  }
+  */
 
   img.alignright {
     margin-left: auto;

@@ -8,11 +8,11 @@ layout: default
 {{ content }}
 </article>
 
-<div id="adjacent">
+<nav class="adjacent">
 {% if page.previous %}
     <p class="older"><a href="{{ page.previous.url }}">&#8592; {{ page.previous.title }}</a></p>
 {% endif %}
 {% if page.next %}
     <p class="newer"><a href="{{ page.next.url }}">{{ page.next.title }} &#8594;</a></p>
 {% endif %}
-</div>
+</nav>
