@@ -1,0 +1,23 @@
+---
+layout: page
+title: Archive
+---
+
+<p>Here is a list of all the articles on this website. A lot are weak and embarrassing &#8211; some of the oldest, weakest and most embarrassing have gone missing &#8211; but isn’t preserving stuff on the web vaguely noble? Perhaps one day I’ll restore all the old rubbish, and the warmly valued reader comments.</p>
+
+{% for post in site.posts %}
+  {% assign currentmonth = post.date | date: "%B %Y" %}
+  {% if currentmonth != month %}
+    {% unless forloop.first %}
+    	</ul>
+    {% endunless %}
+    <h2>{{ currentmonth }}</h1>
+    <ul>
+    {% assign month = currentmonth %}
+  {% endif %}
+  <li>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d" }}</time>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
