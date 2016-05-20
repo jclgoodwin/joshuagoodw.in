@@ -90,6 +90,7 @@ h3 {
 }
 
 img, video {
+  width: auto; // for IE8
   max-width: 100%;
   height: auto;
   border: 0;
