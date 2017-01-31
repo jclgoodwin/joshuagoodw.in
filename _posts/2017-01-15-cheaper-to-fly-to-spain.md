@@ -33,15 +33,15 @@ you'll have to pay a lot more -- and you have to studiously avoid accidentally
 reserving a seat or buying travel insurance on the Ryanair website -- but maybe
 that's OK.
 
-<p><image src="/images/ryanair.png" srcset="/images/ryanair.png 2x" alt="" width="400" height="223" class="aligncenter" /></p>
+<p><image src="/images/ryanair.png" alt="" width="400" height="223" class="aligncenter" /></p>
 
-<p><image src="/images/ryanair2.png" srcset="/images/ryanair2.png 2x" alt="" width="400" height="223" class="aligncenter" /></p>
+<p><image src="/images/ryanair2.png" alt="" width="400" height="223" class="aligncenter" /></p>
 
 But is going by train really that expensive? I cynically assumed the £105 price
 quoted must apply to a stupid [walk-up "anytime" ticket][anytime]. If you book
 in advance -- which is a bit fiddly, but no harder than jumping through hoops
 to get a cheap flight -- it's much cheaper, right? Actually, no: the cheapest
-return fare I could find from Newcastle to Birmigham was indeed £105.80 for two
+return fare I could find from Newcastle to Birmingham was indeed £105.80 for two
 [inflexible advance singles][advance].
 
 ![](/images/train.png)
