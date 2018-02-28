@@ -4,7 +4,7 @@ title: ‘Can someone explain why BBC One is covered in CSS?’
 date: 2018-02-28 21:20:00 +0000
 ---
 
-The BBC has a new pair of bespoke typefaces, [Reith Sans and Reith Serif](http://www.bbc.co.uk/gel/articles/introducing-bbc-reith).
+The BBC has a pair of new bespoke typefaces, [Reith Sans and Reith Serif](http://www.bbc.co.uk/gel/articles/introducing-bbc-reith).
 They're quite nice.
 
 
@@ -37,9 +37,9 @@ Let me be clear: this is not one of the quite interesting usual examples of [sou
 This isn't supposed to relate to the plot of the fifth round of the FA Cup.
 This is, surely, a bug.
 
-Some of the styles in the mention Reith Sans, so we can assume the CSS was written by the BBC.
-The big flat screen in the bottom image has a Panasonic logo on it.
-It is known that these modern smart TVs all use bastardised web browsers so cross-platform experiences can be more easily shovelled across platforms.
+Some of the styles in there mention Reith Sans, so we can assume the CSS was written by the BBC.
+The big flat screen in the bottom image has a Panasonic logo on it, and the other user [says he has a Panasonic Blu-ray player which seems to be implicated](https://twitter.com/schnuckster/status/968964728025440256).
+It's known that these modern smart TVs all use bastardised web browsers so cross-platform experiences can be more easily shovelled across platforms.
 I _guess_ there's a missing `</style>` tag somewhere.
 Apart from that, I have no idea.
 
