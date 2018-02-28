@@ -22,4 +22,6 @@ this, from 2015, by Ava Szajna-Hopgood at Gizmodo UK:
 [The Person With the Best Music Taste in the Country is a Robot DJ Working for Morrisons](http://www.gizmodo.co.uk/2015/10/the-person-with-the-best-music-taste-in-the-country-is-a-robot-dj-working-for-morrisons/).
 So now we know.
 
+<hr class="hr" />
+
 [^1]: I should also single out Norwich Bus Station for praise in this regard. Well done, Norwich Bus Station.
