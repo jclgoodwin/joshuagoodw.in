@@ -39,7 +39,7 @@ This is, surely, a bug.
 
 Some of the styles in the mention Reith Sans, so we can assume the CSS was written by the BBC.
 The big flat screen in the bottom image has a Panasonic logo on it.
-It is known that these modern smart TVs all use bastardised web browsers so cross-platform software can be more easily shovelled across platforms.
+It is known that these modern smart TVs all use bastardised web browsers so cross-platform experiences can be more easily shovelled across platforms.
 I _guess_ there's a missing `</style>` tag somewhere.
 Apart from that, I have no idea.
 
