@@ -46,6 +46,16 @@ Apart from that, I have no idea.
 It's an accurate observation that [_incident reports_ can be well-written and useful](http://russelldavies.typepad.com/planning/2017/05/wannacrypt-incident-report.html).
 I would be _fascinated_ to read an incident report about whatever's happened here.
 
+<strong>Update:</strong> I missed this other tweet:
+
+<blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Some very unusual HTML / CSS style code appearing across the screen on <a href="https://twitter.com/BBC?ref_src=twsrc%5Etfw">@BBC</a> channels on <a href="https://twitter.com/FreeviewTV?ref_src=twsrc%5Etfw">@FreeviewTV</a> on <a href="https://twitter.com/panasonic?ref_src=twsrc%5Etfw">@panasonic</a> TV. <a href="https://t.co/w2aPlCsbEJ">pic.twitter.com/w2aPlCsbEJ</a></p>&mdash; Jonny McGuigan (@jonnymcguigan) <a href="https://twitter.com/jonnymcguigan/status/956872595630186497?ref_src=twsrc%5Etfw">26 January 2018</a></blockquote>
+
+[To which a reply](https://twitter.com/FreeviewTV/status/956943656044388357) suggests the issue is fixed by a downloadable software update ... which [is thin gruel to anyone without an internet connection](https://twitter.com/jonnymcguigan/status/956945349721165824), or who hasn't bothered to connect their television set to the internet.
+
+Somehow I also missed the coverage in the <cite>Grimsby Telegraph</cite>: [The strange Matrix-style coding suddenly appearing on TV sets - and how to fix it](https://www.grimsbytelegraph.co.uk/whats-on/strange-matrix-style-coding-suddenly-1106933).
+Here's [a forum thread about the phenomenon](https://www.avforums.com/threads/issue-with-html-style-text-on-screen.2146998/).
+[a516digital says](https://www.a516digital.com/2018/01/panasonic-fault-causes-freeview.html) the problem lies with [the BBC's new HbbTV service](http://www.bbc.co.uk/rd/blog/2017-12-bbc-hbbtv-interactive-tv) -- HbbTV being a European standard for "hybrid digital TV".
+
 <hr class="hr" />
 
 [^1]: ["People aren’t happy with the BBC’s big weather redesign"](https://www.engadget.com/2018/02/06/bbc-weather-met-office-redesign-meteogroup/) is the most predictable headline. Oh dear. But one crumb of compensation: the northern bit of the landmass now looks proportionately bigger, to the delight of people who live there.

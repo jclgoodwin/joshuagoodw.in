@@ -11,7 +11,7 @@ Later, I, in possession of some money and in want of something to conceal my leg
 
 The most echt artisanal trousers are surely made of selvedge denim.
 Whereas many mass-market trouser merchants sell stonewashed jeans in various states of distress[^1], Huit and others revolutionarily offer actual brand new clothes and invite you to distress them yourself.
-The most committed disgusting raw denim users [will forego washing their jeans for months at a time, in favour of putting them in the freezer](https://www.theguardian.com/fashion/2014/jun/30/jeans-in-the-freezer-grant-wahl-us-world-cup), to make the distress as personal as possible.
+The most committed disgusting raw denim users [will forego washing their jeans for months at a time, in favour of putting them in the freezer](https://www.theguardian.com/fashion/2014/jun/30/jeans-in-the-freezer-grant-wahl-us-world-cup), to make the distress as personalised as possible.
 Perhaps this is a case of [the IKEA effect](https://en.wikipedia.org/wiki/IKEA_effect), "a cognitive bias in which consumers place a disproportionately high value on products they partially created".[^2]
 
 I didn't buy that sort of trouser -- too predictable.
