@@ -6,11 +6,11 @@ date: 2018-03-07 23:19:00 +0000
 
 
 So, this is how it works in the era of influencer marketing in the engagement economy.
-Some elder bloggers -- who I trust aren't in the pocket of Big Trouser -- [blat](https://www.flickr.com/photos/benterrett/7297373624/) [about](https://www.flickr.com/photos/35034346050@N01/33669058294) [Huit Denim](https://hiutdenim.co.uk/), which is a nice brand of trousers made in Wales.
+Some elder bloggers -- who I trust aren't in the pocket of Big Trouser -- [blat](https://www.flickr.com/photos/benterrett/7297373624/) [about](https://www.flickr.com/photos/35034346050@N01/33669058294) [Hiut Denim](https://hiutdenim.co.uk/), which is a nice brand of trousers made in Wales.
 Later, I, in possession of some money and in want of something to conceal my legs, remembered this and bought some.
 
 The most echt artisanal trousers are surely made of selvedge denim.
-Whereas many mass-market trouser merchants sell stonewashed jeans in various states of distress[^1], Huit and others revolutionarily offer actual brand new clothes and invite you to distress them yourself.
+Whereas many mass-market trouser merchants sell stonewashed jeans in various states of distress[^1], Hiut and others revolutionarily offer actual brand new clothes and invite you to distress them yourself.
 The most committed disgusting raw denim users [will forego washing their jeans for months at a time, in favour of putting them in the freezer](https://www.theguardian.com/fashion/2014/jun/30/jeans-in-the-freezer-grant-wahl-us-world-cup), to make the distress as personalised as possible.
 Perhaps this is a case of [the IKEA effect](https://en.wikipedia.org/wiki/IKEA_effect), "a cognitive bias in which consumers place a disproportionately high value on products they partially created".[^2]
 
@@ -35,7 +35,7 @@ Also, some trousers, which were the wrong size (my fault) but the return process
 [Their commitment to sustainability](https://finisterre.com/pages/sustainability-introduction) isn't bullshit, which is nice.
 
 The last trousers I bought were from the venture capital--backed corporate stooges [Spoke](https://spoke-london.com/products/bullet_new_navy).
-Again with the _technical fabric_ aimed at bicyclists -- less stretchy and a bit more water-repellent than the stuff of the Huit jeans, but -- let me be clear -- still not so water-repellent that actual waterproof trousers aren't needed on top in the rain.
+Again with the _technical fabric_ aimed at bicyclists -- less stretchy and a bit more water-repellent than the stuff of the Hiut jeans, but -- let me be clear -- still not so water-repellent that actual waterproof trousers aren't needed on top in the rain.
 They're innovative trousers, with a fold-out reflective bit, and an extra zipped pocket inside the right-hand side pockets.
 The one snag is literally snagging one's hand on that pocket's zip (after leaving the zip unzipped and forgetting about it) -- but such is the agony and ecstasy of high-quality trousers.
 
