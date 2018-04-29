@@ -3,16 +3,16 @@ layout: default
 ---
 
 <article>
-<h1>{{ page.title }}</h1>
-<p class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%A %-d %B %Y" }}</time></p>
-{{ content }}
+  <h1>{{ page.title }}</h1>
+  <p class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%A %-d %B %Y" }}</time></p>
+  {{ content }}
 </article>
 
 <nav class="adjacent">
-{% if page.previous %}
+  {% if page.previous %}
     <p class="older"><a href="{{ page.previous.url }}">&#8592; {{ page.previous.title }}</a></p>
-{% endif %}
-{% if page.next %}
+  {% endif %}
+  {% if page.next %}
     <p class="newer"><a href="{{ page.next.url }}">{{ page.next.title }} &#8594;</a></p>
-{% endif %}
+  {% endif %}
 </nav>

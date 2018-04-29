@@ -2,12 +2,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
-<style>
-{% capture include_to_scssify %}
-    {% include muesli.scss %}
-{% endcapture %}
-{{ include_to_scssify | scssify }}
-</style>
+<link rel="stylesheet" href="/css/muesli.css" />
 <link rel="alternate" type="application/rss+xml" href="/feed" />
 <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 <!--[if lt IE 9]>

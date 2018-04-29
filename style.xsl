@@ -9,12 +9,7 @@
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>RSS feed &#8211; <xsl:value-of select="$title" /></title>
-        <style>
-          {% capture include_to_scssify %}
-            {% include muesli.scss %}
-          {% endcapture %}
-          {{ include_to_scssify | scssify }}
-        </style>
+        <link rel="stylesheet" href="/css/muesli.css" />
       </head>
       <body>
         <div id="page">
