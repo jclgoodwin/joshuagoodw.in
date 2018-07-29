@@ -53,5 +53,11 @@ And if it's been scrubbed from the web, then I'm not surprised, because what mes
 Elephants are renowned for their trunks, proboscises that can suck up water -- a bit like what a paper towel can -- and squirt it out -- a bit like what a watering can can.
 Showing an elephant using a watering can, as if manmade technology is somehow superior to an elephant's trunk, seems like some kind of imperialism.
 
-The depiction of the elephant standing on their hind legs, holding tools with their front foot, is also disquieting.
-A true elephant would walk on all four legs, and use their trunk to hold stuff -- .
+The depiction of the elephant standing on its hind legs, holding tools with its front foot, is also disquieting.
+A true elephant would walk on all four legs, and use his or her trunk to hold stuff.
+But the illustrators of the paper towel industry have to show it behaving like a human, as if it's better and aspirational -- two legs good, four legs bad.
+
+
+
+
+If flypaper is anything, it's unfashionable
