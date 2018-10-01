@@ -4,14 +4,14 @@ title: Fliegenfänger
 date: 2018-06-06 12:00:00 +0100
 ---
 
-Some time ago, I went to Italy.
+Some years ago, I went to Italy.
 I saw some nice sculptures, and some tremendous frescoes --
 hey, why wait for plaster to dry before painting on it? --
 but what really stuck with me was some paper towels.
 
 You must understand that paper towels are often emblazoned with patterns.
 [Toilet paper is often embossed](https://www.reddit.com/r/explainlikeimfive/comments/z7i87/why_does_toilet_paper_have_embossing_on_it/) --
-with little pictures of dogs, for example, which is quite a messed up thing to wipe one's bum with, isn't it? --
+with little pictures of dogs, for example, which is quite a strange thing to wipe one's bum with, isn't it? --
 and so are paper towels (also known as "kitchen paper"), sometimes with the added use of ink.
 
 The Italian paper towels that really stuck with me were decorated with pictures of elephants holding watering cans.
@@ -35,7 +35,7 @@ As you might expect, I've done some research:
 
         ![](/images/scottex1.jpg)
 
-        Scottex's elephant is much more versatile, a true renaissance man or woman -- seen here in a Spanish graphic standing on its hind legs, wearing a chef's toque, holding a wooden spoon with a foreleg:
+        Scottex's elephant is much more versatile, a true polymath -- seen here in a Spanish graphic standing on its hind legs, wearing a chef's toque, holding a wooden spoon with a foreleg:
 
         ![](/images/scottex2.jpg)
 
@@ -51,13 +51,14 @@ But there's no evidence of either elephant mascot having brandished a watering c
 And if it's been scrubbed from the web, then I'm not surprised, because what message is an elephant using a watering can supposed to send out?
 
 Elephants are renowned for their trunks, proboscises that can suck up water -- a bit like what a paper towel can -- and squirt it out -- a bit like what a watering can can.
-Showing an elephant using a watering can, as if manmade technology is somehow superior to an elephant's trunk, seems like some kind of imperialism.
+Showing an elephant using a watering can, as if human-made technology is somehow superior to an elephant's trunk, seems like some kind of imperialism. [^1] [^2]
 
-The depiction of the elephant standing on its hind legs, holding tools with its front foot, is also disquieting.
-A true elephant would walk on all four legs, and use his or her trunk to hold stuff.
-But the illustrators of the paper towel industry have to show it behaving like a human, as if it's better and aspirational -- two legs good, four legs bad.
+Which makes me think of flypaper. 
 
+<hr class="hr" />
 
+[^1]: Unless the elephant has a disability, and the watering can is an assistive technology that lets it enjoy the same activities as able-trunked elephants. In which case we should celebrate this large mammal cyborg.
 
-
-If flypaper is anything, it's unfashionable
+[^2]: The depiction of the elephant standing on its hind legs, holding tools with its front foot, is also disquieting.
+    A true elephant would walk on all four legs, and use his or her trunk to hold stuff.
+    But the illustrators of the paper towel industry have to show it behaving like a human, as if it's better and aspirational -- two legs good, four legs bad.
