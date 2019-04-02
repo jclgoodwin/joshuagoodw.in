@@ -26,7 +26,7 @@ Rampant capitalism and air pollution are more serious than fly-tipped food and d
 
 I wouldn't want anyone to think I've been encouraged by the <cite>Daily Mail</cite>--backed "Great British Spring Clean" campaign,
 which is at least not as bad as 2016's ["Clean for The Queen"](https://www.theguardian.com/lifeandstyle/2016/feb/29/clean-for-the-queen-keep-britain-tidy-michael-gove-boris-johnson) (ugh).
-	
+
 
 <hr class="hr" />
 
