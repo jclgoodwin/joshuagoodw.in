@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week notes: dust
+title: "Week notes: dust"
 date: 2019-04-02 23:59:00 +0100
 ---
 
