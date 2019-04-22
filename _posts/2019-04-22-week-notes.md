@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week notes: Thurrock
+title: "Week notes: Thurrock"
 date: 2019-04-22 18:52:00 +0100
 ---
 
