@@ -4,7 +4,7 @@ title: "Week notes"
 date: 2019-04-29 22:27:00 +0100
 ---
 
-This week, I have dealt with a backlog of emails. By "dealt with", I sometimes mean "deleted" or "archived", and not "replied to".
+This week, I have dealt with a backlog of emails. By "dealt with", I sometimes mean "deleted" or "archived", not "replied to".
 I didn't use to understand the plight of people who get lots of emails, but now I do.
 I don't even get _that many_ emails, but, now that the novelty of getting emails has worn off, it's so easy to let the backlog pile up.
 
