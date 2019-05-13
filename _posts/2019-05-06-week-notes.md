@@ -25,7 +25,7 @@ anything like a big hamster wheel. It's far better to be outside, in the rain, i
 maybe incorporating some other economic activity.
 For example, my bicycling this week meant I got to eat a smoked salmon and cream cheese sandwich and see a steam train.
 
-<video controls width="640" height="360"><source src="/images/steam.mp4" type="video/mp4" /></video>
+<video controls preload="metadata" width="640" height="360"><source src="/images/steam.mp4" type="video/mp4" /></video>
 
 Living my best life.
 
