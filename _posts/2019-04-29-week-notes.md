@@ -25,6 +25,6 @@ Then I discovered a slightly hidden button labelled "Not interested".
 
 <img src="/images/youtube.png" alt="" width="407" height="238" style="width: 407px" />
 
-The eagle eyed will notice that the "Not interested" button there is attached to a lovely compilation of Bob Mortimer's appearances on the televised parlour game <cite>Would I Lie To You?</cite>, in which I am _not_ not interested. I couldn't find any examples of actual Nazis for the screesnshot, because one small nudge was all it took for the mighty algorithm to buck its ideas up and stop trying to radicalise me.
+The eagle eyed will notice that the "Not interested" button there is attached to a lovely compilation of Bob Mortimer's appearances on the televised parlour game <cite>Would I Lie To You?</cite>, in which I am _not_ not interested. I couldn't find any examples of actual Nazis for the screenshot, because one small nudge was all it took for the mighty algorithm to buck its ideas up and stop trying to radicalise me.
 
 Now some of the recommended videos now have titles conforming to an irritating formula, like "David Mitchell HATES the Fondue!!". Still, it's all very jolly, and I didn't even get to the bit with David Mitchell or the fondue.
