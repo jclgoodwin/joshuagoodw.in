@@ -7,7 +7,7 @@
     <title>{{ site.title }}</title>
     <description>{{ site.description }}</description>
     <link>{{ site.url }}</link>
-    {% for post in site.posts limit:10 %}
+    {% for post in site.posts limit:4 %}
     <item>
       <title>{{ post.title }}</title>
       <link>{{ site.url }}{{ post.url }}</link>
