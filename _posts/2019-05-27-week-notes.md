@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week notes"
+title: "Week notes: disappointing crab sandwich"
 date: 2019-05-27 23:04:00 +0100
 ---
 
