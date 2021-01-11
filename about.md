@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-Hello. I am called Joshua Goodwin, and so is this website. I live somewhere in the United Kingdom of Great Britain and Northern Ireland.
+Hello. I am called Joshua Goodwin, and so is this website.
 
 My email address is <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#64;&#106;&#111;&#115;&#104;&#117;&#97;&#103;&#111;&#111;&#100;&#119;&#46;&#105;&#110;">&#106;&#64;&#106;&#111;&#115;&#104;&#117;&#97;&#103;&#111;&#111;&#100;&#119;&#46;&#105;&#110;</a>.
 
