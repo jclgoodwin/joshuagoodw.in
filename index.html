@@ -11,5 +11,7 @@ layout: default
 {% endfor %}
 
 <nav class="adjacent">
-    <p class="older"><a href="{{ site.url }}/archive">Archive</a></p>
+    <p class="older"><a href="{{ site.posts[9].previous.url }}">&larr; {{ site.posts[9].previous.title }}</a></p>
+
+    <p><a href="{{ site.url }}/archive">Archive</a></p>
 </nav>
