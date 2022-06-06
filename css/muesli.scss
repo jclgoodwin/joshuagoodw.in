@@ -2,52 +2,73 @@
 ---
 
 @import 'utils';
-@include font-face('Futura', '/webfonts/futura');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,800;1,400&display=swap');
 
 nav, article, header, time {
   display: block;
 }
 
+$accent-color: #da3d46;
+$lighter-accent-color: #da3d46;
+$border-color: #ccc;
+
 body {
   background: #fff;
-  color: #333;
-  font: 16px/24px Constantia, Palatino, 'Palatino Linotype', 'URW Palladio L', serif;
+  color: #222;
+  font: 18px/1.5 "Libre Franklin", sans-serif;
   margin: 24px auto 72px;
-  max-width: 600px;
+  max-width: 35em;
   overflow-wrap: hyphenate;
   overflow-y: scroll;
-  padding: 0 15px;
+  padding: 0 1em;
   word-wrap: break-word;
 }
 
 h1, h3, header {
-  font-family: Futura, 'Tw Cen MT', sans-serif;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 a {
-  color: #cc005f;
+  color: $accent-color;
   text-decoration: none;
-  border-bottom: 1px solid #ffcce4;
-  transition: background-color .1s linear;
+  border-bottom: 1px solid $border-color;
+}
+
+a:hover {
+  border-bottom-color: $accent-color;
 }
 
 a:active,
 a:focus {
-  background-color: #ffcce4;
+  background-color: $border-color;
 }
 
 blockquote {
   margin: 0 0 0 14px;
   padding: 0 0 0 15px;
-  border-left: 1px solid #ffcce4;
+  border-left: 1px solid $border-color;
   text-align: left;
+}
+
+li {
+  padding-left: .5em;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 1em;
+  list-style-type: '● ';
+
+  li::marker {
+    color: #999;
+  }
 }
 
 hr {
   height: 1px;
   border: 0;
-  background: #ffcce4;
+  background: $border-color;
   width: 150px;
   margin: 24px auto;
 }
@@ -60,7 +81,7 @@ hr {
   width: 150px;
   margin: 24px 0;
   height: 1px;
-  background: #ffcce4;
+  background: $border-color;
 }
 
 sup, sub {
@@ -77,8 +98,8 @@ sub {
 }
 
 h1 {
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 3em;
+  line-height: 1.2;
   margin: 72px 0 16px 0;
 
   a {
@@ -108,7 +129,7 @@ table {
 }
 
 tr {
-  border-bottom: 1px solid #ffcce4;
+  border-bottom: 1px solid $border-color;
 }
 
 th {
@@ -161,6 +182,11 @@ article {
   .older:last-child {
     width: 100%;
   }
+
+  a {
+    border: 0;
+    font-weight: bold;
+  }
 }
 
 .alignleft {
@@ -200,7 +226,7 @@ img.aligncenter {
 .caption,
 .wp-caption-text {
   margin-top: 0;
-  color: #ff55a4;
+  color: $lighter-accent-color;
   text-align: center;
   font-style: italic;
 }
@@ -237,37 +263,42 @@ header nav {
     padding: 0;
   }
 
-  margin-bottom: -12px;
-  font-size: 16px;
-
   li {
     display: inline;
-    margin-right: 30px;
+    margin-right: 1.5em;
 
     a {
-      color: #ff55a4;
+      color: $lighter-accent-color;
       border: 0;
       display: inline-block;
     }
 
-    // &.current a,
-    a:hover {
-      color: #cc005f;
-    }
+    // // &.current a,
+    // a:hover {
+    //   color: $accent-color;
+    // }
+
+    // a:focus, a:active {
+    //   color: #fff;
+    // }
+  }
+
+  li:last-child {
+    margin: 0;
   }
 }
 
 .archive {
   h2 {
-    font-size: 16px;
-    margin: 16px 0 0 30px;
-    color: #ff55a4;
+    font-size: 1em;
+    margin: 1em 0 0 2em;
+    color: #999;
     font-weight: normal;
   }
 
   ul {
     padding: 0;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 2em;
   }
 
   li {
@@ -278,86 +309,42 @@ header nav {
   }
 
   time {
-    color: #ff55a4;
+    color: #999;
     display: block;
     float: left;
-    margin-left: -30px;
-    width: 30px;
+    margin-left: -2em;
+    width: 2em;
+  }
+
+  a {
+    border: 0;
+    font-weight: bold;
   }
 }
 
-.fn {
-  font-style: normal;
-}
-
-/*
-// Comments
-.commentlist, .commentlist li {
-  margin: 24px 0;
-  padding: 0;
-  list-style: none;
-}
-
-#comments h3 {
-  margin-bottom: 24px;
-}
-
-.commentlist p {
-  clear: both;
-}
-
-.when {
-  float: right;
-}
-
-.who {
-  float: left;
-}
-
-p.who, p.when {
-  margin: 0 0 16px 0;
-  clear: none;
-}
-*/
-
-.ad,
-.ad a,
-// .who, .who a,
-// .when a,
-.adjacent a, 
-.meta, .meta a {
-  color: #ff55a4;
+.meta {
+  color: #999;
+  font-weight: bold;
 }
 
 p.message {
   padding: 4px 8px 3px;
-  border: 1px solid #ffcce4;
+  border: 1px solid $border-color;
 }
 
 a.action {
   padding: 3px 8px 2px;
-  border-bottom-color: #cc005f;
-  background: #ff55a4;
+  border-bottom-color: $accent-color;
+  background: $lighter-accent-color;
   color: #fff;
-  text-shadow: 0 -1px #cc005f;
+  text-shadow: 0 -1px $accent-color;
   display: inline-block;
 
   &:focus,
   &:active {
-    background: #cc005f;
+    background: $accent-color;
   }
 }
-
-/*
-h3 small {
-  font-size: 14px;
-  color: #fff;
-  background: #ff55a4;
-  padding: 2px 4px;
-  border-radius: 2px;
-  vertical-align: top;
-}
-*/
 
 @media only screen and (max-width : 670px) {
   blockquote {
@@ -376,7 +363,7 @@ h3 small {
     }
 
     li {
-      margin-right: 20px;
+      margin-right: 1em;
     }
   }
 
