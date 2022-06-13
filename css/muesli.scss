@@ -11,12 +11,12 @@ nav, article, header, time {
 body {
   background: #fff;
   color: #333;
-  font: 16px/24px Constantia, Palatino, 'Palatino Linotype', 'URW Palladio L', serif;
-  margin: 24px auto 72px;
+  font: 16px/1.5 Constantia, Palatino, 'Palatino Linotype', 'URW Palladio L', serif;
+  margin: 1.5em auto 4.5em;
   max-width: 600px;
   overflow-wrap: hyphenate;
   overflow-y: scroll;
-  padding: 0 15px;
+  padding: 0 1em;
   word-wrap: break-word;
 }
 
@@ -37,9 +37,26 @@ a:focus {
   background-color: #ffcce4;
 }
 
+ul, ol {
+  margin-left: 0;
+  padding-left: 1em;
+}
+
+ul {
+  list-style-type: '● ';
+
+  > li::marker {
+    color: #ffcce4;
+  }
+}
+
+li {
+  padding-left: .25em;
+}
+
 blockquote {
-  margin: 0 0 0 14px;
-  padding: 0 0 0 15px;
+  margin: 0;
+  padding-left: 1em;
   border-left: 1px solid #ffcce4;
   text-align: left;
 }
@@ -79,7 +96,7 @@ sub {
 h1 {
   font-size: 30px;
   line-height: 36px;
-  margin: 72px 0 16px 0;
+  margin: 2.4em 0 0;
 
   a {
     border: 0;
@@ -88,8 +105,8 @@ h1 {
 
 h3 {
   font-size: 20px;
-  line-height: 24px;
-  margin: 24px 0 16px;
+  line-height: 1.2;
+  margin: 1.2em 0 0.8em;
 }
 
 img, video {
@@ -116,7 +133,7 @@ th {
 }
 
 th, td {
-  padding: 3px 15px 3px 0;
+  padding: .2em .5em .2em 0;
 }
 
 tr td:last-child {
@@ -124,24 +141,7 @@ tr td:last-child {
 }
 
 article {
-  margin-bottom: 72px;
-}
-
-.ad {
-  margin: 72px auto;
-  text-align: center;
-
-  ul,
-  li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: inline;
-  }
-
-  ul:before {
-    content: "Advert: ";
-  }
+  margin: 4.5em 0;
 }
 
 .adjacent {
@@ -259,15 +259,15 @@ header nav {
 
 .archive {
   h2 {
-    font-size: 16px;
-    margin: 16px 0 0 30px;
+    font-size: 1em;
+    margin: 1em 0 0 2em;
     color: #ff55a4;
     font-weight: normal;
   }
 
   ul {
     padding: 0;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 2em;
   }
 
   li {
@@ -281,51 +281,13 @@ header nav {
     color: #ff55a4;
     display: block;
     float: left;
-    margin-left: -30px;
-    width: 30px;
+    margin-left: -2em;
+    width: 2em;
   }
 }
 
-.fn {
-  font-style: normal;
-}
-
-/*
-// Comments
-.commentlist, .commentlist li {
-  margin: 24px 0;
-  padding: 0;
-  list-style: none;
-}
-
-#comments h3 {
-  margin-bottom: 24px;
-}
-
-.commentlist p {
-  clear: both;
-}
-
-.when {
-  float: right;
-}
-
-.who {
-  float: left;
-}
-
-p.who, p.when {
-  margin: 0 0 16px 0;
-  clear: none;
-}
-*/
-
-.ad,
-.ad a,
-// .who, .who a,
-// .when a,
 .adjacent a, 
-.meta, .meta a {
+.meta {
   color: #ff55a4;
 }
 
@@ -347,17 +309,6 @@ a.action {
     background: #cc005f;
   }
 }
-
-/*
-h3 small {
-  font-size: 14px;
-  color: #fff;
-  background: #ff55a4;
-  padding: 2px 4px;
-  border-radius: 2px;
-  vertical-align: top;
-}
-*/
 
 @media only screen and (max-width : 670px) {
   blockquote {
@@ -392,13 +343,6 @@ h3 small {
   h1 a {
     display: block;
   }
-
-  /*
-  .details p {
-    width: 100%;
-    margin-bottom: 1em;
-  }
-  */
 
   img.alignright {
     margin-left: auto;
