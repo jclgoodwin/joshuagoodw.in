@@ -361,6 +361,7 @@ textarea {
   width: 100%;
   height: 24px;
   resize: none;
+  border-radius: 0;
 }
 
 textarea::placeholder {
@@ -392,8 +393,9 @@ textarea + input {
   color: #fff;
   border: 1px solid #ff55a4;
   padding: .25em .5em;
-  margin-top: .25em;
+  margin: .25em 0 0;
   cursor: pointer;
+  border-radius: 0;
 }
 
 .focused input {
