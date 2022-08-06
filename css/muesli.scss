@@ -351,3 +351,57 @@ a.action {
     display: block;
   }
 }
+
+textarea {
+  padding: 0;
+  font: inherit;
+  border: 0;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  height: 24px;
+  resize: none;
+}
+
+textarea::placeholder {
+  color: #ff55a4;
+}
+textarea:hover::placeholder {
+  color: #cc005f;
+}
+
+.focused textarea {
+  color: #333;
+  padding: .25em .5em;
+  height: 120px;
+  cursor: initial;
+  outline: 0;
+  box-sizing: border-box;
+  border: 1px solid #ff55a4;
+  resize: vertical;
+}
+
+textarea:focus::placeholder {
+  color: transparent;
+}
+
+textarea + input {
+  display: none;
+  background: #ff55a4;
+  font: inherit;
+  color: #fff;
+  border: 1px solid #ff55a4;
+  padding: .25em .5em;
+  margin-top: .25em;
+  cursor: pointer;
+}
+
+.focused input {
+  display: block;
+}
+
+textarea:focus,
+textarea + input:focus {
+  border-color: #cc005f;
+}
+

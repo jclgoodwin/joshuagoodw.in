@@ -7,6 +7,10 @@ layout: default
 <h1><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
 <p class="meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%A %-d %B %Y" }}</time></p>
 {{ post.content }}
+<form method="POST" action="https://faas-lon1-917a94a7.doserverless.co/api/v1/web/fn-ed3a9d7f-2ef0-4d60-b3e1-cde7bd73e6e1/default/reply" onsubmit="fetch(this.action, {method: 'POST', body: new URLSearchParams('message=' + this.message.value)}).then(()=>{this.message.value='';this.className='';});return false">
+<textarea name="message" placeholder="Reply" required onfocus="this.form.className='focused'"></textarea>
+<input type="submit" value="Send message">
+</form>
 </article>
 {% endfor %}
 
