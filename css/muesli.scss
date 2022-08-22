@@ -371,6 +371,7 @@ textarea:hover::placeholder {
   color: #cc005f;
 }
 
+form:focus-within textarea,
 .focused textarea {
   color: #333;
   padding: .25em .5em;
@@ -398,6 +399,7 @@ textarea + input {
   border-radius: 0;
 }
 
+form:focus-within input,
 .focused input {
   display: block;
 }
@@ -406,4 +408,9 @@ textarea:focus,
 textarea + input:focus {
   border-color: #cc005f;
 }
+
+textarea + input:focus {
+  background: #cc005f;
+}
+
 
