@@ -399,9 +399,15 @@ textarea + input {
   border-radius: 0;
 }
 
+.status {
+  display: none;
+  margin-left: .25em;
+}
+
 form:focus-within input,
-.focused input {
-  display: block;
+.focused input,
+form:focus-within .status {
+  display: inline-block;
 }
 
 textarea:focus,
