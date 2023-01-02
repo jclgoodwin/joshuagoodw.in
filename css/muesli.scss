@@ -30,10 +30,15 @@ h1, h3, header {
 
 a {
   color: #cc005f;
-  text-decoration: none;
-  border-bottom: 1px solid #ffcce4;
+  text-decoration-color: #ffcce4;
+  text-decoration-thickness: 1px;
+  text-underline-position: under;
   transition: background-color .1s linear;
 }
+
+// a:hover {
+//   text-decoration-color: #cc005f;
+// }
 
 a:active,
 a:focus {
@@ -102,7 +107,7 @@ h1 {
   margin: 2.4em 0 0;
 
   a {
-    border: 0;
+    text-decoration: none;
   }
 }
 
@@ -212,10 +217,6 @@ em cite {
   font-style: normal;
 }
 
-a.image {
-  border: 0;
-}
-
 code {
   font-family: Consolas, Monaco, monospace;
   font-size: .8em;
@@ -249,7 +250,7 @@ header nav {
 
     a {
       color: #ff55a4;
-      border: 0;
+      text-decoration: none;
       display: inline-block;
     }
 
