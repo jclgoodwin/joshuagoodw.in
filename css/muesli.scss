@@ -1,8 +1,10 @@
 ---
 ---
 
-@import 'utils';
-@include font-face('Futura', '/webfonts/futura');
+@font-face {
+  font-family: Jost;
+  src: url("../webfonts/Jost-Medium.ttf") format("truetype");
+}
 
 nav, article, header, time {
   display: block;
@@ -21,7 +23,8 @@ body {
 }
 
 h1, h3, header {
-  font-family: Futura, 'Tw Cen MT', sans-serif;
+  font-family: Jost, Futura, 'Tw Cen MT', sans-serif;
+  font-feature-settings: "ss01";
   font-weight: normal;
 }
 
