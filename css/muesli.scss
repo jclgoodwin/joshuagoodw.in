@@ -3,7 +3,8 @@
 
 @font-face {
   font-family: Jost;
-  src: url("../webfonts/Jost-Medium.ttf") format("truetype");
+  src: url("../webfonts/jost-500-medium-webfont.woff2") format("woff2"),
+       url("../webfonts/jost-500-medium-webfont.woff") format("woff");
 }
 
 nav, article, header, time {
