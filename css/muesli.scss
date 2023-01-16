@@ -119,7 +119,7 @@ h3 {
 }
 
 img, video {
-  width: auto; // for IE8
+  // width: auto; // for IE8
   max-width: 100%;
   height: auto;
   border: 0;
@@ -228,11 +228,9 @@ acronym,
 abbr,
 .caps {
   border: 0;
-  font-size: .8em;
   font-weight: inherit;
-  letter-spacing: 1px;
   text-decoration: none;
-  text-transform: uppercase;
+  font-variant-caps: all-small-caps;
 }
 
 header nav {
