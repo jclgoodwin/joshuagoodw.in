@@ -19,7 +19,7 @@ Cool story, bro.
 Well, serendipitiously,
 [the Co-op's must-read newsletter just linked to](https://coopdigitalnewsletter.tumblr.com/post/171305991827/26-feb-2018-we-have-created-tools-that-are)
 this, from 2015, by Ava Szajna-Hopgood at Gizmodo UK:
-[The Person With the Best Music Taste in the Country is a Robot DJ Working for Morrisons](http://www.gizmodo.co.uk/2015/10/the-person-with-the-best-music-taste-in-the-country-is-a-robot-dj-working-for-morrisons/).
+[The Person With the Best Music Taste in the Country is a Robot DJ Working for Morrisons](http://web.archive.org/web/20200908115750/http://www.gizmodo.co.uk/2015/10/the-person-with-the-best-music-taste-in-the-country-is-a-robot-dj-working-for-morrisons/).
 So now we know.
 
 <hr class="hr" />
