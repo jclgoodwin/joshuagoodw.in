@@ -8,7 +8,7 @@ date: 2024-02-01 19:24:00 +0000
 
 > <img src="/images/2024-02-guardian-petridis.png" alt="were lavished with praise by everyone from Florence Welch to Garth Crooks (the latter feeling impelled to interrupt an episode of Football Focus to describe them as “fine young women making really exciting pop music”)" width="556" height="356">
 
-<cite>Football Focus</cite> is a long-running Saturday lunchtime BBC programme that focuses on football, and Garth Crooks [is a former footballer](https://archive.mehstg.com/fact_crooks.htm).
+<cite>Football Focus</cite> is a long-running Saturday lunchtime BBC programme that focuses on football, and Garth Crooks [is an ex-footballer now better known as a pundit](https://archive.mehstg.com/fact_crooks.htm).
 
 > Garth has worked for the BBC since 1982 as a match analyst and also as an interviewer, noted for his wordy and rambling questions, which have been much parodied.  Seen frequently on BBC's Saturday afternoon football programme "Final Score" and he has been comically lampooned for his rambling questions to football players and managers.
 
@@ -29,6 +29,11 @@ To be really sure, we'd have to watch every episode of <cite>Football Focus</cit
 <img src="/images/2024-02-bbc-music-played.png" alt="" width="521" height="356">
 
 So we should be able to narrow it down to episodes where The Last Dinner Party are listed there and Garth Crooks is named in the credits. But unfortunately, maybe due to budget cuts, there are no playlists for episodes of <cite>Football Focus</cite> broadcast after February 2023. I can't even tell if Crooksy appeared on <cite>Football Focus</cite> during the relevant period – some episodes have no credits, and he's not credited in any that have them.
+
+Actually, years ago, I started (using `get_iplayer`) bulk-downloading the subtitles of every BBC programme,
+and indexing them in Elasticsearch and even making a tool that graphed of mentions of [search term] over time.
+But I stopped, because breaking the law is illegal, and I didn't know that one day I'd want to know if a band were ever mentioned on <cite>Football Focus</cite>.
+And now it's too late, because episodes of <cite>Football Focus</cite> don't stay on the iPlayer for very long.
 
 Anyway. I don't like to be a spoilsport,
 but I sadly suspect that Petridis has been the gullible victim of a hoax,
