@@ -4,15 +4,19 @@ title: "Did Football Focus's Garth Crooks really describe The Last Dinner Party 
 date: 2024-02-01 19:24:00 +0000
 ---
 
-<cite>The Guardian</cite>'s [Alexis Petridis writes](https://www.theguardian.com/music/2024/feb/01/the-last-dinner-party-prelude-to-ecstasy-review) that baroque indie pop band The Last Dinner Party
+<cite>The Guardian</cite>'s [Alexis Petridis writes](https://www.theguardian.com/music/2024/feb/01/the-last-dinner-party-prelude-to-ecstasy-review) that the baroque indie pop band The Last Dinner Party
 
-> were lavished with praise by everyone from Florence Welch to Garth Crooks (the latter feeling impelled to interrupt an episode of Football Focus to describe them as “fine young women making really exciting pop music”)
+> <img src="/images/2024-02-guardian-petridis.png" alt="were lavished with praise by everyone from Florence Welch to Garth Crooks (the latter feeling impelled to interrupt an episode of Football Focus to describe them as “fine young women making really exciting pop music”)" width="556" height="356">
 
 <cite>Football Focus</cite> is a long-running Saturday lunchtime BBC programme that focuses on football, and Garth Crooks [is a former footballer](https://archive.mehstg.com/fact_crooks.htm).
 
 > Garth has worked for the BBC since 1982 as a match analyst and also as an interviewer, noted for his wordy and rambling questions, which have been much parodied.  Seen frequently on BBC's Saturday afternoon football programme "Final Score" and he has been comically lampooned for his rambling questions to football players and managers.
 
-But did GC really interrupt an episode of FF to praise TLDP? The fact was [added to The Last Dinner Party's Wikipedia article a few months earlier, in November 2023](https://en.wikipedia.org/w/index.php?title=The_Last_Dinner_Party&diff=prev&oldid=1183988740), and thereafter several people [tweeted screenshots of it](https://twitter.com/search?q=garth%20crooks%20last%20dinner%20party) going ha ha at the idea of Crooksy as tastemaker. But the citation given, [an article from <cite>Rolling Stone</cite>](https://www.rollingstone.co.uk/music/features/meet-the-last-dinner-party-who-might-just-be-your-favourite-new-band-28599/), [doesn't even mention](https://en.wikipedia.org/wiki/Template:Failed_verification) Crooks or <cite>Football Focus</cite> at all.
+But did GC really praise TLDP on FF? The fact was [added to The Last Dinner Party's Wikipedia article a few months earlier, in November 2023](https://en.wikipedia.org/w/index.php?title=The_Last_Dinner_Party&diff=prev&oldid=1183988740)
+
+> <img src="/images/2024-02-wikipedia.png" alt='After their music was played on an episode of the BBC&apos;s Football Focus, Garth Crooks cited the band as potential future stars, stating in his weekly Team of the Week column that "these fine young women are making really exciting pop music. Lovely Stuff".' width="521" height="199">
+
+and thereafter several people [tweeted screenshots of it](https://twitter.com/search?q=garth%20crooks%20last%20dinner%20party) going ha ha at the idea of Crooksy as tastemaker. But the citation given, [an article from <cite>Rolling Stone</cite>](https://www.rollingstone.co.uk/music/features/meet-the-last-dinner-party-who-might-just-be-your-favourite-new-band-28599/), [doesn't even mention](https://en.wikipedia.org/wiki/Template:Failed_verification) Crooks or <cite>Football Focus</cite> at all.
 
 The Wikipedia user responsible has a dubious [track record](https://en.wikipedia.org/wiki/Special:Contributions/90.201.88.148), e.g. adding this paragraph to [the <cite>Video Killed the Radio Star</cite> article](https://en.wikipedia.org/wiki/Video_Killed_the_Radio_Star#In_popular_culture):
 
