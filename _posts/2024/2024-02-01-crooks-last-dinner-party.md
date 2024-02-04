@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Did Football Focus's Garth Crooks really describe The Last Dinner Party as 'fine young women making really exciting pop music'?"
+title: "Did Football Focus’s Garth Crooks really call The Last Dinner Party ‘fine young women making really exciting pop music’?"
 date: 2024-02-01 19:24:00 +0000
 ---
 
