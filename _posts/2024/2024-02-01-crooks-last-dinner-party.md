@@ -12,7 +12,7 @@ date: 2024-02-01 19:24:00 +0000
 
 > Garth has worked for the BBC since 1982 as a match analyst and also as an interviewer, noted for his wordy and rambling questions, which have been much parodied.  Seen frequently on BBC's Saturday afternoon football programme "Final Score" and he has been comically lampooned for his rambling questions to football players and managers.
 
-But did GC really praise TLDP on FF? The fact was [added to The Last Dinner Party's Wikipedia article a few months earlier, in November 2023](https://en.wikipedia.org/w/index.php?title=The_Last_Dinner_Party&diff=prev&oldid=1183988740)
+But did GC really praise TLDP on FF? This sentence was [added to The Last Dinner Party's Wikipedia article a few months earlier, in November 2023](https://en.wikipedia.org/w/index.php?title=The_Last_Dinner_Party&diff=prev&oldid=1183988740):
 
 > <img src="/images/2024-02-wikipedia.png" alt='After their music was played on an episode of the BBC&apos;s Football Focus, Garth Crooks cited the band as potential future stars, stating in his weekly Team of the Week column that "these fine young women are making really exciting pop music. Lovely Stuff".' width="521" height="199">
 
@@ -31,7 +31,7 @@ To be really sure, we'd have to watch every episode of <cite>Football Focus</cit
 So we should be able to narrow it down to episodes where The Last Dinner Party are listed there and Garth Crooks is named in the credits. But unfortunately, maybe due to budget cuts, there are no playlists for episodes of <cite>Football Focus</cite> broadcast after February 2023. I can't even tell if Crooksy appeared on <cite>Football Focus</cite> during the relevant period – some episodes have no credits, and he's not credited in any that have them.
 
 Actually, years ago, I started (using `get_iplayer`) bulk-downloading the subtitles of every BBC programme,
-and indexing them in Elasticsearch and even making a tool that graphed of mentions of [search term] over time.
+and indexing them in Elasticsearch and even making a tool that graphed mentions of [search term] over time.
 But I stopped, because breaking the law is illegal, and I didn't know that one day I'd want to know if a band were ever mentioned on <cite>Football Focus</cite>.
 And now it's too late, because episodes of <cite>Football Focus</cite> don't stay on the iPlayer for very long.
 

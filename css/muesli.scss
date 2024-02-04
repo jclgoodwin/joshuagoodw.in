@@ -1,6 +1,21 @@
 ---
 ---
 
+:root {
+  --background-color: #fff;
+  --text-color: #333;
+
+  --link-color: #cc005f;
+  --link-underline-color: #ffcce4;
+
+  @media (prefers-color-scheme: dark) {
+    --background-color: #222;
+    --text-color: #fff;
+    --link-color: #ffcce4;
+    --link-underline-color: #cc005f;
+  }
+}
+
 @font-face {
   font-family: Jost;
   src: url("../webfonts/jost-500-medium-webfont.woff2") format("woff2"),
@@ -9,13 +24,15 @@
 
 @font-face {
   font-family: "Charter";
-  src: url("../webfonts/charter_regular.woff2") format("woff2");
+  src: local("Charter"),
+     url("../webfonts/charter_regular.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Charter";
   font-style: italic;
-  src: url("../webfonts/charter_italic.woff2") format("woff2");
+  src: local("Charter"),
+   url("../webfonts/charter_italic.woff2") format("woff2");
 }
 
 nav, article, header, time {
@@ -23,8 +40,8 @@ nav, article, header, time {
 }
 
 body {
-  background: #fff;
-  color: #333;
+  background: var(--background-color);
+  color: var(--text-color);
   font: 16px/1.5 "Charter", serif;
   margin: 1.5em auto 4.5em;
   max-width: 600px;
@@ -41,8 +58,8 @@ h1, h3, header {
 }
 
 a {
-  color: #cc005f;
-  text-decoration-color: #ffcce4;
+  color: var(--link-color);
+  text-decoration-color: var(--link-underline-color);
   text-decoration-thickness: 1px;
   text-underline-position: under;
   transition: background-color .1s linear;
@@ -54,7 +71,7 @@ a {
 
 a:active,
 a:focus {
-  background-color: #ffcce4;
+  background-color: var(--link-underline-color);
 }
 
 ul, ol {
