@@ -5,7 +5,7 @@ layout: default
 {% for post in site.posts limit:10 %}
 <article itemscope itemtype="https://schema.org/BlogPosting">
   <h1 itemprop="name"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
-  <p class="meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%A %-d %B %Y" }}</time></p>
+  <p class="meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%A %-d %B %Y" }}</time></p>
   <div itemprop="articleBody">
     {{ post.content }}
   </div>
