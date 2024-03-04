@@ -1,0 +1,3 @@
+/feed /feed.xml 200
+/rss.xml /feed.xml 200
+/rss /feed.xml 200
