@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article itemscope itemtype="https://schema.org/BlogPosting">
+<article itemscope itemtype="https://schema.org/BlogPosting" data-pagefind-body>
   <h1 itemprop="name">{{ page.title }}</h1>
   <p class="meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%A %-d %B %Y" }}</time></p>
   <div itemprop="articleBody">
