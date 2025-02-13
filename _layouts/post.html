@@ -8,14 +8,13 @@ layout: default
   <div itemprop="articleBody">
     {{ content }}
   </div>
-  {% include reply.html %}
 </article>
 
 <nav class="adjacent">
-  {% if page.previous %}
-    <p class="older"><a href="{{ page.previous.url }}">&#8592; {{ page.previous.title }}</a></p>
-  {% endif %}
-  {% if page.next %}
-    <p class="newer"><a href="{{ page.next.url }}">{{ page.next.title }} &#8594;</a></p>
-  {% endif %}
+{% if page.previous %}
+  <p class="older"><a href="{{ page.previous.url }}">&#8592; {{ page.previous.title }}</a></p>
+{% endif %}
+{% if page.next %}
+  <p class="newer"><a href="{{ page.next.url }}">{{ page.next.title }} &#8594;</a></p>
+{% endif %}
 </nav>
