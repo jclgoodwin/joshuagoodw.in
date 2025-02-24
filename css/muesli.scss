@@ -28,10 +28,7 @@ body {
   font: 16px/1.5 "Charter", serif;
   margin: 1.5em auto 4.5em;
   max-width: 600px;
-  overflow-wrap: hyphenate;
-  overflow-y: scroll;
   padding: 0 1em;
-  word-wrap: break-word;
 }
 
 h1, h3, header {
@@ -255,9 +252,14 @@ header nav {
   margin-bottom: -12px;
   font-size: 16px;
 
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5em 1.5em;
+  }
+
   li {
-    display: inline;
-    margin-right: 30px;
+    list-style: none;
 
     a {
       color: #ff55a4;
@@ -334,16 +336,6 @@ a.action {
 @media only screen and (max-width : 480px) {
   header ul li:first-child {
     display: block;
-  }
-
-  header nav {
-    a {
-      padding: 3px 0;
-    }
-
-    li {
-      margin-right: 20px;
-    }
   }
 
   article iframe {
