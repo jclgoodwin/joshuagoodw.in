@@ -1,0 +1,8 @@
+{
+  "checks": {
+    "misc.apologize": false,
+    "cliches.terms": false,
+    "weasel_words.very": false,
+    "typography.symbols": false
+  }
+}
