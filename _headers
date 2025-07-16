@@ -13,7 +13,7 @@
 /favicon.ico
   Cache-Control: public, max-age=604800
 
-/style.csl
+/style.xsl
   Cache-Control: public, max-age=604800
 
 /pagefind/pagefind-ui*
