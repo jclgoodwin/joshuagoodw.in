@@ -22,6 +22,10 @@ nav, article, header, time {
   display: block;
 }
 
+@view-transition {
+  navigation: auto;
+}
+
 body {
   background: #fff;
   color: #333;
