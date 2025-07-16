@@ -1,4 +1,4 @@
-/css/*
+/css/muesli.css
   Cache-Control: public, max-age=604800
 
 /images/*
@@ -8,4 +8,13 @@
   Cache-Control: public, max-age=604800
 
 /wp/*
+  Cache-Control: public, max-age=604800
+
+/favicon.ico
+  Cache-Control: public, max-age=604800
+
+/style.csl
+  Cache-Control: public, max-age=604800
+
+/pagefind/pagefind-ui*
   Cache-Control: public, max-age=604800

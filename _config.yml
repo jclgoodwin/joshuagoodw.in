@@ -6,4 +6,4 @@ sass:
   style: :compressed
 compress_html:
   clippings: all
-include: [_redirects]
+include: [_redirects, _headers]
