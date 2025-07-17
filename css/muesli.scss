@@ -33,6 +33,7 @@ body {
   margin: 1.5em auto 4.5em;
   max-width: 600px;
   padding: 0 1em;
+  word-break: break-word;
 }
 
 h1, h3, header {
@@ -307,7 +308,7 @@ header nav {
   }
 }
 
-.adjacent a, 
+.adjacent a,
 .meta {
   color: #ff55a4;
 }
@@ -429,5 +430,3 @@ textarea + input:focus {
 textarea + input:focus {
   background: #cc005f;
 }
-
-
