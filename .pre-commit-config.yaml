@@ -13,3 +13,4 @@ repos:
     rev: 0.14.0
     hooks:
     -   id: proselint
+        types: [markdown]
