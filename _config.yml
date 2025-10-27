@@ -4,6 +4,4 @@ url: "https://joshuagoodw.in"
 permalink: /:year/:month/:title
 sass:
   style: :compressed
-compress_html:
-  clippings: all
 include: [_redirects, _headers]
