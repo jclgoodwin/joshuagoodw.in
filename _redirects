@@ -3,3 +3,5 @@
 /rss.xml /feed.xml 200
 /rss /feed.xml 200
 /rss/ /feed.xml 200
+/2009/07/old-popular-yolk-free-wordpress-theme/ /themes 200
+/media/* https://crap.ams3.digitaloceanspaces.com/astromega/nginx/html/joshuagoodw.in/media/:splat
