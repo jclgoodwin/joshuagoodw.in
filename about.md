@@ -17,4 +17,4 @@ and <a rel="me" href="https://github.com/jclgoodwin">GitHub</a>.
 
 ### Colophon
 
-Some of the tools I use to make this website are Jekyll, Cloudflare Pages and Sublime Text. Typeset in Jost and Charter. The source code [is on GitHub](https://github.com/jclgoodwin/joshuagoodw.in).
+Some of the tools I use to make this website are Jekyll, Cloudflare Pages and Sublime Text. Typeset in [Jost](https://indestructibletype.com/Jost.html) and [Charter](https://practicaltypography.com/charter.html). The source code [is on GitHub](https://github.com/jclgoodwin/joshuagoodw.in).
