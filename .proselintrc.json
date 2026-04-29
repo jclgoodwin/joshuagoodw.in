@@ -4,6 +4,7 @@
     "cliches.terms": false,
     "weasel_words.very": false,
     "typography.symbols": false,
-    "cursing.filth": false
+    "cursing.filth": false,
+    "archaism": false
   }
 }
