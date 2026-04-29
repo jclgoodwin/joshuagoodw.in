@@ -11,9 +11,6 @@ I almost never post anything on
 <a rel="me" href="https://mastodon.social/@jgoodwin">Mastodon</a>,
 <a rel="me" href="https://www.instagram.com/jclgoodwin/">Instagram</a>,
 <a rel="me" href="https://bsky.app/profile/jclg.uk">Bluesky</a> etc.
-For completeness, I'm also on
-<a rel="me" href="https://www.last.fm/user/jclgoodwin">Last.fm</a>
-and <a rel="me" href="https://github.com/jclgoodwin">GitHub</a>.
 
 ### Colophon
 
